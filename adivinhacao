@@ -1,0 +1,9 @@
+print('JOGO DE ADIVINHAÇÃO')
+nsr = 56
+
+print('Número secreto está entre 40-60')
+chute = int(input('Chute um número: '))
+if(chute == nsr ):
+    print('Parabéns você acertou')
+else:
+    print('Que pena Você errou')
